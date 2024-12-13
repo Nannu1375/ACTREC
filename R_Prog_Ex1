@@ -1,0 +1,23 @@
+Pg 39, Exercise 1
+
+1. To get help, type help("<the command>"). If you dont remember the right spelling of command, use help.search("<anythingsimilartocommand>")
+
+2. Class of this dataset is data.frame.
+3. 15 rows and 3 columns
+5. colMeans(women)
+6. wtless <- nrow(women[women$weight < 120]) 
+	print(wtless)
+7. subset_dat <- women[women$weight > 124 & women$weight < 150, ]
+> head(subset_dat)
+   height weight age
+5      62    126  31
+6      63    129  34
+7      64    132  31
+8      65    135  39
+9      66    139  35
+10     67    142  34
+> avght <- mean(subset_dat$height)
+> print(avght)
+[1] 65
+9. rownames(women)[5] <- "Lucy"
+

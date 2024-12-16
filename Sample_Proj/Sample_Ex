@@ -1,0 +1,94 @@
+Here are **10 advanced exercises** that combine multiple concepts (data types, object types, functions, conditionals, and looping) into cohesive tasks:
+
+---
+
+### **Exercise 1: Prime Number Checker**
+Write a function that:  
+1. Accepts a vector of numbers as input.  
+2. Checks whether each number is prime or not.  
+3. Returns a list with two elements:  
+   - A vector of prime numbers.  
+   - A vector of non-prime numbers.  
+
+---
+
+### **Exercise 2: Student Grades Calculator**
+Create a function that:  
+1. Accepts a dataframe with student names and scores for three subjects.  
+2. Calculates the total and average score for each student.  
+3. Assigns a grade based on the average (A: 90+, B: 80-89, C: 70-79, F: below 70).  
+4. Returns the updated dataframe with the total, average, and grade columns added.  
+
+---
+
+### **Exercise 3: Temperature Conversion**
+Write a function that:  
+1. Accepts a vector of temperatures in Celsius or Fahrenheit and a target unit ("C" or "F").  
+2. Converts all temperatures to the target unit.  
+3. Returns the converted temperatures as a vector.  
+4. Include input validation to ensure proper unit specification.  
+
+---
+
+### **Exercise 4: Fibonacci Sequence Generator**
+Create a function that:  
+1. Accepts an integer `n` as input.  
+2. Generates the first `n` terms of the Fibonacci sequence.  
+3. Returns the sequence as a vector.  
+
+---
+
+### **Exercise 5: Random Number Statistics**
+Write a function that:  
+1. Generates a vector of `n` random numbers between 1 and 100.  
+2. Calculates the mean, median, standard deviation, and range of the numbers.  
+3. Returns these statistics as a named list.  
+4. If `n` is not provided, default it to 10.  
+
+---
+
+### **Exercise 6: Unique Words Counter**
+Create a function that:  
+1. Accepts a character vector (a paragraph split into sentences).  
+2. Splits the sentences into words and removes any punctuation.  
+3. Returns a named vector with each unique word and its frequency in the paragraph.  
+
+---
+
+### **Exercise 7: Matrix Manipulation**
+Write a function that:  
+1. Accepts a numeric matrix.  
+2. Finds the row and column sums.  
+3. Checks if the matrix is symmetric.  
+4. Returns a list containing:  
+   - The row sums.  
+   - The column sums.  
+   - A logical value indicating symmetry.  
+
+---
+
+### **Exercise 8: Factorial Calculator**
+Create a function that:  
+1. Accepts a numeric vector as input.  
+2. Calculates the factorial for each number in the vector.  
+3. Uses both a for-loop and an `sapply` implementation.  
+4. Returns a named list with results from both methods.  
+
+---
+
+### **Exercise 9: Data Cleaning Script**
+Write a function that:  
+1. Accepts a dataframe.  
+2. Removes any rows with missing values.  
+3. Replaces any outliers (values greater than 3 standard deviations from the mean) with the mean of the column.  
+4. Returns the cleaned dataframe.  
+
+---
+
+### **Exercise 10: Palindrome Checker**
+Create a function that:  
+1. Accepts a vector of character strings.  
+2. Checks if each string is a palindrome (case-insensitive).  
+3. Returns a named logical vector indicating whether each string is a palindrome.  
+
+

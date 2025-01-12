@@ -64,7 +64,7 @@ custMode <- function (vec) {
   for (i in vec) {
     vec1 <- c(vec1, i)
     for (j in vec1) {
-      
+      # 
     }
   }
 }

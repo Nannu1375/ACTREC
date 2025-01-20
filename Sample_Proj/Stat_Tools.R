@@ -56,15 +56,12 @@ custMedian <- function(vec) {
   return(medn)
 }
 
-###### numbers <- c(15, 7, 28, 13, 44, 19, 22, 31, 12, 50)
+###### numbers <- c(15, 7, 28, 15, 44, 15, 22, 31, 12, 50)
 
 ## Calculate mode
-vec1 <- c()
-custMode <- function (vec) {
+## Add unique numbers in the list to a uniqueVec
+custMode <- function(vec) {
   for (i in vec) {
-    vec1 <- c(vec1, i)
-    for (j in vec1) {
-      # 
-    }
+    
   }
 }

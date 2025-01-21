@@ -105,5 +105,3 @@ This example shows why you might choose different transformations:
 - Use normalization (FPKM) when you need to compare expression levels between genes and samples
 - Use standardization when you need to identify outliers or unusual expression patterns
 - Use scaling when you need values in a specific range, often for visualization or machine learning
-
-Would you like me to explain how any of these transformations would affect downstream analyses, or would you like to see how to implement these transformations using a specific programming language?

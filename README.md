@@ -1,5 +1,8 @@
+
+# Disclaimer
 This repository contains all my trial small projects in R while working in ACTREC. It is not related to any projects (as of 12th Jan, 2024) that i am working on and is purely a repo of all my learnings during this tenure extracurricularly.
 
+# Notes
 ## Questions and Answers
 1. What is a count matrix?
     Count matrix refers to a table of data, where the rows represent different genes that have been looked into, and the columns represent the different conditions that they have been looked into. The column can be from different samples or     even can be replicates of the same sample.

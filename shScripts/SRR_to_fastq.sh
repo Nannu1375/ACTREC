@@ -14,7 +14,7 @@ while IFS= read -r ACC; do
 	if [ $? -ne 0 ]; then
 	  echo "Error downloading SRR$ACC. Skipping..."
 	else
-	  echo " Successfully downloaded SRR$ACC."
+	  echo "Successfully downloaded SRR$ACC."
 	fi
 done < "$Acc_List"
 
